@@ -38,6 +38,7 @@ i noticed in the source code a comment to make into consideration for later `TOD
 `<IMG SRC= onmouseover="alert('xxs')">`
 
 ![[Pasted image 20250423223733.png]]
+
 -> Indicating a **Cypher Injection** (injection for GQL), where there is a cypher query to fetch data like this :
 ```GQL
 MATCH (u:USER) -[:SECRET]-> (h:SHA1) WHERE u.name = '<USER_INPUT>' RETURN h.value AS hash
