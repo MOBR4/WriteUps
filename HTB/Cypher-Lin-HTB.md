@@ -37,7 +37,7 @@ i noticed in the source code a comment to make into consideration for later `TOD
 -> When i try an xss paylod i get this error :
 `<IMG SRC= onmouseover="alert('xxs')">`
 
-![[Pasted image 20250423223733.png]]
+![Pasted image 20250423223733.png]
 
 -> Indicating a **Cypher Injection** (injection for GQL), where there is a cypher query to fetch data like this :
 ```GQL
