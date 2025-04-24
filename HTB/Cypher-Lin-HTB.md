@@ -70,8 +70,7 @@ Starting gobuster in directory enumeration mode
 /api                  (Status: 307) [Size: 0] [--> /api/docs]
 /testing              (Status: 301) [Size: 178] [--> http://cypher.htb/testing/]
 ```
-
-![[Pasted image 20250423230317.png]]
+![Pasted image](./Pasted%20image%2020250423230317.png)]]
 
 #### APOC 
 ->Neo4j supports the APOC (Awesome Procedures on Cypher) Core library. The APOC Core library provides access to user-defined procedures and functions which extend the use of the [Cypher query language](https://neo4j.com/docs/cypher-manual/current/introduction/) into areas such as data integration, graph algorithms, and data conversion.
